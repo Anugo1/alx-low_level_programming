@@ -1,11 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
- * main - Entry point
- * Return: Always 1 (Success)
+ *  * main - use to return the integer value 1
+ *   *
+ *    * Description: use to print to standard output in the main function
+ *     *
+ *      * Return: return the value 1
+ *       *
  */
-int write(int filedes, const char *buf, unsigned int nbyte);
+
 int main(void)
 {
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
